@@ -1,0 +1,79 @@
+@media only screen and (max-width: 768px) {
+  .form-container {
+    flex-direction: column;
+  }
+  form > .inputs {
+    width: auto;
+  }
+  div > .contact-form-container {
+    font-size: 15px;
+  }
+}
+
+.contact-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  font-family: "MyFont";
+  font-size: 25px;
+}
+.contact-form {
+  width: 90vw;
+  height: auto;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: 12px 12px 37px #aaaaaa, -12px -12px 37px #ffffff;
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  width: 60vw;
+}
+
+.SubmitButton {
+  border-radius: 40px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 20px 17px 20px #bebebe, -20px -17px 20px #ffffff;
+  width: 10vw;
+  min-width: 120px;
+  margin: auto;
+  margin-top: 3%;
+  border: 1px solid black;
+}
+
+.SubmitButton:active {
+  border-radius: 40px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+}
+
+.messageArea {
+  height: 30vh;
+  border-radius: 6px;
+  background: #e0e0e0;
+  border: 1px solid black;
+  resize: none;
+}
+
+.emailInput {
+  border: 1px solid black;
+  border-radius: 6px;
+  background: #e0e0e0;
+}
+
+.form-container {
+  display: flex;
+}
+
+.location-div {
+  text-align: left;
+  padding: 4%;
+  padding-left: 6%;
+  padding-right: 1%;
+  flex-grow: 1;
+}

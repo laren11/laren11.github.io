@@ -1,0 +1,23 @@
+@media only screen and (max-width: 768px) {
+  div > .NaseDeloTitleGallery {
+    font-size: 1.5em;
+    padding-top: 3%;
+  }
+  div > .NaseDeloTextGallery {
+    font-size: 0.8em;
+  }
+}
+
+.gallery {
+  font-family: "MyFont";
+}
+
+.NaseDeloTitleGallery {
+  font-size: 3em;
+  color: white;
+}
+
+.NaseDeloTextGallery {
+  font-size: 1.5em;
+  color: white;
+}
