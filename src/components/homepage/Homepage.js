@@ -137,8 +137,8 @@ const Homepage = () => {
         <div
           style={{
             background: "whitesmoke",
-            marginLeft: "3%",
-            marginRight: "3%",
+            marginLeft: "10%",
+            marginRight: "10%",
             paddingTop: "3%",
             height: "100%",
             fontFamily: "MyFont",
@@ -281,10 +281,10 @@ const Homepage = () => {
         >
           <div
             style={{
-              width: "94%",
+              width: "80%",
               height: "3vw",
               backgroundColor: "darkgray",
-              marginLeft: "3%",
+              marginLeft: "10%",
             }}
           ></div>
           <div style={{ display: "flex", alignItems: "center" }}>
