@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/https//laren11.github.io/static/css/main.db2c906e.css",
-    "main.js": "/https//laren11.github.io/static/js/main.1e6bf26f.js",
+    "main.css": "/https//laren11.github.io/static/css/main.3ee0e9d3.css",
+    "main.js": "/https//laren11.github.io/static/js/main.1d03e0f9.js",
     "static/js/787.fdf44c86.chunk.js": "/https//laren11.github.io/static/js/787.fdf44c86.chunk.js",
     "static/media/welderNew.jpg": "/https//laren11.github.io/static/media/welderNew.2f088ebc8c2203444c47.jpg",
     "static/media/homepage-welder.png": "/https//laren11.github.io/static/media/homepage-welder.01b575454be6748ac405.png",
@@ -38,12 +38,12 @@
     "static/media/Welding1.webp": "/https//laren11.github.io/static/media/Welding1.193c2d18f04519235f67.webp",
     "static/media/placeholder.png": "/https//laren11.github.io/static/media/placeholder.64cdcb0ef97818161310.png",
     "index.html": "/https//laren11.github.io/index.html",
-    "main.db2c906e.css.map": "/https//laren11.github.io/static/css/main.db2c906e.css.map",
-    "main.1e6bf26f.js.map": "/https//laren11.github.io/static/js/main.1e6bf26f.js.map",
+    "main.3ee0e9d3.css.map": "/https//laren11.github.io/static/css/main.3ee0e9d3.css.map",
+    "main.1d03e0f9.js.map": "/https//laren11.github.io/static/js/main.1d03e0f9.js.map",
     "787.fdf44c86.chunk.js.map": "/https//laren11.github.io/static/js/787.fdf44c86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db2c906e.css",
-    "static/js/main.1e6bf26f.js"
+    "static/css/main.3ee0e9d3.css",
+    "static/js/main.1d03e0f9.js"
   ]
 }
