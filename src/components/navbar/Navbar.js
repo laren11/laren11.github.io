@@ -1,6 +1,6 @@
 import { useRef, useState, useContext } from "react";
 import { Transition } from "@headlessui/react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import LanguageSelect from "./LanguageSelect";
 import Hamburger from "hamburger-react";
 import { FormattedMessage } from "react-intl";
@@ -10,6 +10,11 @@ import logo from "../../photos/logo.png";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const ref = useRef();
+  const navigate = useNavigate();
+
+  function handleLogoClick() {
+    navigate("/");
+  }
 
   return (
     <div style={{ fontFamily: "MyFont" }}>
@@ -18,7 +23,12 @@ function Navbar() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <img className="h-20 w-20" src={logo} alt="Workflow" />
+                <img
+                  className="h-20 w-20"
+                  src={logo}
+                  onClick={() => handleLogoClick()}
+                  alt="Workflow"
+                />
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">

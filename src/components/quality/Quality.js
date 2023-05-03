@@ -6,11 +6,22 @@ import certifikat2 from "../../photos/certifikat2.pdf";
 import certifikat3 from "../../photos/certifikat3.pdf";
 import certifikat4 from "../../photos/certifikat4.pdf";
 import certifikat5 from "../../photos/certifikat5.pdf";
+import certifikat6 from "../../photos/certifikat6.pdf";
+import certifikat7 from "../../photos/certifikat7.pdf";
+import certifikat8 from "../../photos/certifikat8.pdf";
+import certifikat9 from "../../photos/certifikat9.PDF";
+import certifikat10 from "../../photos/certifikat10.PDF";
 import certifikat11 from "../../photos/certifikat11.jpg";
 import certifikat22 from "../../photos/certifikat22.jpg";
 import certifikat33 from "../../photos/certifikat33.jpg";
 import certifikat44 from "../../photos/certifikat44.jpg";
 import certifikat55 from "../../photos/certifikat55.jpg";
+import certifikat66 from "../../photos/certifikat66.jpg";
+import certifikat77 from "../../photos/certifikat77.jpg";
+import certifikat88 from "../../photos/certifikat88.jpg";
+import certifikat99 from "../../photos/certifikat99.jpg";
+import certifikat1010 from "../../photos/certifikat1010.jpg";
+import { FormattedMessage } from "react-intl";
 
 const Quality = () => {
   const handleImageClick = (url) => {
@@ -20,16 +31,14 @@ const Quality = () => {
 
   return (
     <div>
-      <div className="title">Quality</div>
+      <div className="title">
+        <FormattedMessage id="app.quality" />
+      </div>
       <div className="text-container">
         <div className="quality-text">
-          Kvaliteta opravljenih storitev je naša osnovna konkurenčna prednost,
-          ki jo želimo izkazati tudi na uradno priznani način. Zato smo
-          pridobili certifikate
+          <FormattedMessage id="app.quality.text" />
           <b>
-            {" "}
-            ISO 9001:2008, EN ISO 3834-2, AD 2000 HP0, SCCP, EN 729/3 (DIN
-            18800/7) in EN 1090-2
+            <FormattedMessage id="app.quality.textBold" />
           </b>
         </div>
         <div className="quality-pictures">
@@ -42,6 +51,14 @@ const Quality = () => {
             onClick={() => handleImageClick(certifikat2)}
           />
           <img
+            src={certifikat99}
+            onClick={() => handleImageClick(certifikat9)}
+          />
+          <img
+            src={certifikat1010}
+            onClick={() => handleImageClick(certifikat10)}
+          />
+          <img
             src={certifikat33}
             onClick={() => handleImageClick(certifikat3)}
           />
@@ -52,6 +69,18 @@ const Quality = () => {
           <img
             src={certifikat55}
             onClick={() => handleImageClick(certifikat5)}
+          />
+          <img
+            src={certifikat66}
+            onClick={() => handleImageClick(certifikat6)}
+          />
+          <img
+            src={certifikat77}
+            onClick={() => handleImageClick(certifikat7)}
+          />
+          <img
+            src={certifikat88}
+            onClick={() => handleImageClick(certifikat8)}
           />
         </div>
       </div>

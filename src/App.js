@@ -26,7 +26,7 @@ function App() {
   const [language, setLanguage] = useState(
     navigator.language.split(/[-_]/)[0] in messages
       ? navigator.language.split(/[-_]/)[0]
-      : "en"
+      : "si"
   );
 
   return (

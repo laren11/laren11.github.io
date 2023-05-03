@@ -64,20 +64,19 @@ const Homepage = () => {
           className="homepagePlanTech"
         >
           <div style={{ padding: "0% 10% 20% 10%" }}>
-            <div style={{ display: "", flexDirection: "column" }}>
+            <div>
               <div style={{ display: "flex" }} className="homepageTitle">
                 <h1
                   style={{
                     textAlign: "left",
                     paddingTop: "3%",
-                    display: "flex",
                     color: "white",
                     fontFamily: "MyFont",
                   }}
                 >
                   PLAN-TECH
                 </h1>
-                <img src={logo} style={{ width: "20vw" }} />
+                <img src={logo} className="homepageLogo" />
               </div>
             </div>
             <p
@@ -109,20 +108,17 @@ const Homepage = () => {
           className="NaseDeloTitle"
           style={{ paddingBottom: "1%", paddingTop: "3%" }}
         >
-          O podjetju
+          <FormattedMessage id="app.homepage.about" />
         </div>
         <div className="NaseDeloText" style={{ paddingBottom: "5%" }}>
-          Naše podjetje se ukvarja s strokovnim varilskim delom in zagotavlja
-          kakovostne storitve strankam. Imamo dolgoletne izkušnje na področju
-          varjenja in uporabljamo najnovejšo tehnologijo. Naš cilj je zagotoviti
-          visoko kakovostne storitve in zadovoljiti potrebe naših strank.
+          <FormattedMessage id="app.homepage.aboutText" />
         </div>
       </div>
       <div
         style={{
           backgroundImage: `url(${WelderNew})`,
           height: "auto",
-          paddingBottom: "10%",
+          paddingBottom: "25%",
           backgroundColor: "black",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
@@ -141,7 +137,7 @@ const Homepage = () => {
           }}
         >
           <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
-            Naše delo
+            <FormattedMessage id="app.homepage.ourWork" />
           </div>
           <div
             className="NaseDeloText"
@@ -152,11 +148,7 @@ const Homepage = () => {
               paddingBottom: "2%",
             }}
           >
-            Naši izkušeni varilci uporabljajo najnovejšo tehnologijo in tehnike
-            za ustvarjanje natančnih, visokokakovostnih varov, ki so močni in
-            trajni. Od nerjavnega jekla do aluminija in titanove zlitine, delamo
-            z različnimi materiali, da ustvarimo prilagojena kovinska dela, ki
-            ustrezajo specifičnim potrebam strank.
+            <FormattedMessage id="app.homepage.ourWorkText" />
           </div>
           {/*           <div
             style={{
@@ -177,7 +169,7 @@ const Homepage = () => {
             }}
           >
             <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
-              Storitve
+              <FormattedMessage id="app.homepage.services" />
             </div>
             <div
               style={{
@@ -188,12 +180,7 @@ const Homepage = () => {
               }}
               className="NaseDeloText"
             >
-              Ponujamo širok nabor varilskih storitev za različne aplikacije in
-              materiale, vključno z MIG, TIG, MAG, elektrodnim in laserskim
-              varjenjem. Naši strokovnjaki so izkušeni in usposobljeni za
-              opravljanje vseh vrst varilskih del. Strankam zagotavljamo
-              kakovostno in zanesljivo storitev. Ponosni smo na našo ekipo
-              izkušenih varilcev, ki imajo različne{" "}
+              <FormattedMessage id="app.homepage.servicesText1" />
               <Button
                 onClick={() => {
                   handleNavigateToQualityClick();
@@ -210,11 +197,9 @@ const Homepage = () => {
                 }}
                 className="NaseDeloText"
               >
-                certifikate in kvalifikacije
+                <FormattedMessage id="app.homepage.servicesButton" />
               </Button>
-              . Naše varilsko delo je v skladu s sodobnimi industrijskimi
-              standardi, kar zagotavlja, da bo vaš projekt dokončan z najvišjo
-              kakovostjo.
+              <FormattedMessage id="app.homepage.servicesText2" />
             </div>
           </div>
           <div
@@ -224,7 +209,7 @@ const Homepage = () => {
             }}
           >
             <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
-              Kako delujemo
+              <FormattedMessage id="app.homepage.howWeOperate" />
             </div>
             <div
               style={{
@@ -235,10 +220,7 @@ const Homepage = () => {
               }}
               className="NaseDeloText"
             >
-              Pri delu uporabljamo najnovejšo tehnologijo in strokovno znanje.
-              Za vsako stranko pripravimo individualni načrt dela, ki ustreza
-              njihovim specifičnim potrebam. Naš cilj je zagotoviti učinkovito
-              in prilagojeno storitev za vsakega posameznega kupca.
+              <FormattedMessage id="app.homepage.howWeOperateText" />
             </div>
           </div>
           <div
@@ -248,7 +230,7 @@ const Homepage = () => {
             }}
           >
             <div className="NaseDeloTitle" style={{ paddingTop: "2%" }}>
-              Zakaj izbrati nas?
+              <FormattedMessage id="app.homepage.whyChooseUs" />
             </div>
             <div
               style={{
@@ -259,11 +241,7 @@ const Homepage = () => {
               }}
               className="NaseDeloText"
             >
-              V naši varilni storitvi razumemo, da je vsak projekt edinstven.
-              Zato si vzamemo čas in prisluhnemo vašim potrebam, da ustvarimo
-              smiselne rešitve, ki so prilagojene vašim specifičnim zahtevam. Od
-              prvotne zasnove do končne dostave tesno sodelujemo z vami, da
-              zagotovimo, da bo vaš projekt zaključen pravočasno učinkovito.
+              <FormattedMessage id="app.homepage.whyChooseUsText" />
             </div>
           </div>
         </div>
@@ -298,7 +276,7 @@ const Homepage = () => {
               }}
             >
               <div className="NaseDeloTitle2" style={{ paddingLeft: "12%" }}>
-                Galerija
+                <FormattedMessage id="app.homepage.gallery" />
               </div>
               <div className="NaseDeloText2">
                 <Button
@@ -317,13 +295,9 @@ const Homepage = () => {
                   }}
                   className="NaseDeloText"
                 >
-                  Raziščite našo galerijo varjenja
+                  <FormattedMessage id="app.homepage.galleryButton" />
                 </Button>
-                in si oglejte primere našega dela in širino naših zmogljivosti.
-                Naši projekti varjenja segajo od preprostih popravil do velikih
-                industrijskih instalacij. Naša obsežna izkušnja in strokovnost
-                nam omogočata zagotavljanje prilagojenih rešitev tudi za najbolj
-                zapletene varilske izzive.
+                <FormattedMessage id="app.homepage.galleryText" />
               </div>
             </div>
             <div
@@ -347,7 +321,7 @@ const Homepage = () => {
             className="NaseDeloTitle"
             style={{ color: "white", paddingTop: "1%", fontFamily: "MyFont" }}
           >
-            Lokacija
+            <FormattedMessage id="app.homepage.location" />
           </div>
           <div
             className="NaseDeloText"
@@ -358,8 +332,7 @@ const Homepage = () => {
               paddingRight: "10%",
             }}
           >
-            Locirani smo v okolici Maribora, svoje storitve pa opravljamo po
-            vsej Evropi
+            <FormattedMessage id="app.homepage.locationText" />
           </div>
           <Button
             onClick={() => {
@@ -370,10 +343,10 @@ const Homepage = () => {
               marginTop: "1%",
               fontFamily: "MyFont",
               backgroundColor: "red",
-              marginBottom: "2%",
+              marginBottom: "3%",
             }}
           >
-            Kontaktirajte nas
+            <FormattedMessage id="app.homepage.locationButton" />
           </Button>
         </div>
         <MapContainer

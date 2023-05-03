@@ -8,7 +8,7 @@ import { FormattedMessage } from "react-intl";
 const LanguageSelect = () => {
   const { language, setLanguage } = useContext(LocalizationContext);
 
-  const [flagLanguage, setFlagLanguage] = useState("GB");
+  const [flagLanguage, setFlagLanguage] = useState("EN");
 
   useEffect(() => {
     switch (language) {
@@ -109,27 +109,6 @@ const LanguageSelect = () => {
                 </a>
               )}
             </Menu.Item>
-            <form method="POST" action="#">
-              <Menu.Item>
-                {({ active }) => (
-                  <a
-                    onClick={() => {
-                      setFlagLanguage("ES");
-                      setLanguage("es");
-                    }}
-                    className={classNames(
-                      active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                      "block px-4 py-2 text-sm"
-                    )}
-                  >
-                    <div className="flex ">
-                      <Flag country="ES" className="mr-1" />
-                      Español
-                    </div>
-                  </a>
-                )}
-              </Menu.Item>
-            </form>
           </div>
         </Menu.Items>
       </Transition>

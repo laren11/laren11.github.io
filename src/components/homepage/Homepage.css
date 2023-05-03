@@ -7,24 +7,24 @@
 
 @media only screen and (max-width: 1100px) {
   div > .homepage-picture-text {
-    font-size: 5vw;
+    font-size: 4vw;
     width: 50%;
     position: absolute;
-    right: 5%;
+    right: 3%;
   }
 }
 
 @media only screen and (max-width: 768px) {
   div > .homepageTitle {
-    font-size: 10vw;
+    font-size: 13vw;
     padding-top: 40vh;
+    flex-direction: column;
   }
   div > .homepage-picture-text {
     font-size: 5vw;
-    padding-top: 5%;
-    width: 60%;
+    width: 80%;
     position: absolute;
-    right: 30%;
+    right: 20%;
   }
   div > .text-picture-container-1 {
     flex-direction: column;
@@ -67,7 +67,7 @@
   }
   div > .NaseDeloText2 {
     font-size: 1.2em;
-    min-width: 60vw;
+    min-width: 50vw;
     padding-left: 6%;
     padding-bottom: 12%;
   }
@@ -89,10 +89,18 @@
   div > .homepagePlanTech {
     height: 100vh;
   }
+  div > .homepageLogo {
+    width: 40vw;
+  }
+}
+
+.homepageLogo {
+  width: 20vw;
 }
 
 .homepageTitle {
   font-size: 10vw;
+  flex-direction: row;
 }
 
 .homepagePlanTech {

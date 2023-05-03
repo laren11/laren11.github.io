@@ -41,7 +41,7 @@ export const ContactUs = () => {
           <FormattedMessage id="app.contact.message" />
         </label>
         <textarea className="messageArea" name="message" />
-        <input className="SubmitButton" type="submit" />
+        <input className="SubmitButton" type="submit" value={"Send"} />
         {submitted && (
           <div style={{ height: "auto", width: "auto" }}>
             Hvala za vaše sporočilo
