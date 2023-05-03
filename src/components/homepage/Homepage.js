@@ -55,23 +55,22 @@ const Homepage = () => {
         <div
           style={{
             backgroundImage: `url(${homepageNew})`,
-            height: "auto",
             backgroundColor: "black",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: " left 7%",
             justifyContent: "flex-end",
           }}
+          className="homepagePlanTech"
         >
           <div style={{ padding: "0% 10% 20% 10%" }}>
             <div style={{ display: "", flexDirection: "column" }}>
-              <div style={{ display: "flex" }}>
+              <div style={{ display: "flex" }} className="homepageTitle">
                 <h1
                   style={{
                     textAlign: "left",
                     paddingTop: "3%",
                     display: "flex",
-                    fontSize: "10vw",
                     color: "white",
                     fontFamily: "MyFont",
                   }}
@@ -87,9 +86,6 @@ const Homepage = () => {
                 fontFamily: "MyFont",
                 fontWeight: "bold",
                 color: "white",
-                width: "30%",
-                position: "absolute",
-                right: "5%",
               }}
               className="homepage-picture-text"
             >
@@ -210,6 +206,7 @@ const Homepage = () => {
                   paddingTop: ".5%",
                   fontFamily: "MyFont",
                   backgroundColor: "blue",
+                  fontSize: "inherit",
                 }}
                 className="NaseDeloText"
               >
@@ -250,7 +247,7 @@ const Homepage = () => {
               backgroundColor: "darkgray",
             }}
           >
-            <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
+            <div className="NaseDeloTitle" style={{ paddingTop: "2%" }}>
               Zakaj izbrati nas?
             </div>
             <div
@@ -282,12 +279,19 @@ const Homepage = () => {
           <div
             style={{
               width: "80%",
-              height: "3vw",
+              height: "4vw",
               backgroundColor: "darkgray",
               marginLeft: "10%",
             }}
           ></div>
-          <div style={{ display: "flex", alignItems: "center" }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              paddingTop: "1%",
+              paddingBottom: "1%",
+            }}
+          >
             <div
               style={{
                 fontFamily: "MyFont",
@@ -309,6 +313,7 @@ const Homepage = () => {
                     paddingTop: ".5%",
                     fontFamily: "MyFont",
                     backgroundColor: "blue",
+                    fontSize: "inherit",
                   }}
                   className="NaseDeloText"
                 >
@@ -316,11 +321,9 @@ const Homepage = () => {
                 </Button>
                 in si oglejte primere našega dela in širino naših zmogljivosti.
                 Naši projekti varjenja segajo od preprostih popravil do velikih
-                industrijskih instalacij. Ponosni smo na svojo sposobnost
-                zagotavljanja natančne izdelave v dogovorjenem roku in
-                proračunu, in naša obsežna izkušnja in strokovnost nam omogočata
-                zagotavljanje prilagojenih rešitev tudi za najbolj zapletene
-                varilske izzive.
+                industrijskih instalacij. Naša obsežna izkušnja in strokovnost
+                nam omogočata zagotavljanje prilagojenih rešitev tudi za najbolj
+                zapletene varilske izzive.
               </div>
             </div>
             <div

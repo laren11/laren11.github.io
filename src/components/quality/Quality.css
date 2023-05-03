@@ -2,12 +2,23 @@
   .quality-pictures > img {
     width: 90%;
   }
+  div > .title {
+    font-size: 2.3em;
+    padding-bottom: 3%;
+  }
+  div > .quality-text {
+    font-size: 1.2em;
+  }
+}
+.quality-text {
+  font-size: 1.5em;
 }
 
 .title {
   font-family: "MyFont";
   text-align: center;
   width: 100vw;
+  font-size: 3em;
 }
 
 .text-container {
