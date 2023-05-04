@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e981f6d4.css",
+    "main.css": "/static/css/main.0499233f.css",
     "main.js": "/static/js/main.e8776bac.js",
     "static/js/787.fdf44c86.chunk.js": "/static/js/787.fdf44c86.chunk.js",
     "static/media/welderNew.jpg": "/static/media/welderNew.2f088ebc8c2203444c47.jpg",
@@ -49,12 +49,12 @@
     "static/media/Welding1.webp": "/static/media/Welding1.193c2d18f04519235f67.webp",
     "static/media/placeholder.png": "/static/media/placeholder.64cdcb0ef97818161310.png",
     "index.html": "/index.html",
-    "main.e981f6d4.css.map": "/static/css/main.e981f6d4.css.map",
+    "main.0499233f.css.map": "/static/css/main.0499233f.css.map",
     "main.e8776bac.js.map": "/static/js/main.e8776bac.js.map",
     "787.fdf44c86.chunk.js.map": "/static/js/787.fdf44c86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e981f6d4.css",
+    "static/css/main.0499233f.css",
     "static/js/main.e8776bac.js"
   ]
 }
