@@ -12,8 +12,8 @@
   "app.homepage.ourWorkText": "Naši izkušeni varilci uporabljajo najnovejšo tehnologijo in tehnike za ustvarjanje natančnih, visokokakovostnih varov, ki so močni in trajni. Od nerjavnega jekla do aluminija in titanove zlitine, delamo z različnimi materiali, da ustvarimo prilagojena kovinska dela, ki ustrezajo specifičnim potrebam strank.",
   "app.homepage.services": "Storitve",
   "app.homepage.servicesText1": "Ponujamo širok nabor varilskih storitev za različne aplikacije in materiale, vključno z MIG, TIG, MAG, elektrodnim in laserskim varjenjem. Naši strokovnjaki so izkušeni in usposobljeni za opravljanje vseh vrst varilskih del. Strankam zagotavljamo kakovostno in zanesljivo storitev. Ponosni smo na našo ekipo izkušenih varilcev, ki imajo različne",
-  "app.homepage.servicesButton": "certifikate in kvalifikacije",
-  "app.homepage.servicesText2": ". Naše varilsko delo je v skladu s sodobnimi industrijskimi standardi, kar zagotavlja, da bo vaš projekt dokončan z najvišjo kakovostjo.",
+  "app.homepage.servicesButton": "certifikate in kvalifikacije.",
+  "app.homepage.servicesText2": " Naše varilsko delo je v skladu s sodobnimi industrijskimi standardi, kar zagotavlja, da bo vaš projekt dokončan z najvišjo kakovostjo.",
   "app.homepage.howWeOperate": "Kako delujemo",
   "app.homepage.howWeOperateText": "Pri delu uporabljamo najnovejšo tehnologijo in strokovno znanje. Za vsako stranko pripravimo individualni načrt dela, ki ustreza njihovim specifičnim potrebam. Naš cilj je zagotoviti učinkovito in prilagojeno storitev za vsakega posameznega kupca.",
   "app.homepage.whyChooseUs": "Zakaj izbrati nas?",
@@ -26,7 +26,7 @@
   "app.homepage.locationButton": "kontaktirajte nas!",
 
   "app.quality.text": "Kvaliteta opravljenih storitev je naša osnovna konkurenčna prednost, ki jo želimo izkazati tudi na uradno priznani način. Zato smo pridobili certifikate",
-  "app.quality.textBold": "ISO 9001:2008, EN ISO 3834-2, AD 2000 HP0, SCCP, EN 729/3 (DIN 18800/7) in EN 1090-2",
+  "app.quality.textBold": " ISO 9001:2008, EN ISO 3834-2, AD 2000 HP0, SCCP, EN 729/3 (DIN 18800/7) in EN 1090-2",
 
   "app.contact.contactUs": "Kontaktirajte nas!",
   "app.contact.message": "Sporočilo",

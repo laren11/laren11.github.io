@@ -21,6 +21,7 @@ import photo4 from "../../photos/carousel-3/4.jpg";
 import photo5 from "../../photos/carousel-3/5.jpg";
 import photo6 from "../../photos/carousel-3/6.jpg";
 import Carousel from "react-gallery-carousel";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Homepage = () => {
   const navigate = useNavigate();
@@ -32,11 +33,9 @@ const Homepage = () => {
     iconSize: [25, 25],
   });
 
-  const images1 = [photo1, photo2, photo3, photo4, photo5, photo6].map(
-    (photo) => ({
-      src: photo,
-    })
-  );
+  const images1 = [photo1, photo2, photo3, photo4, photo6].map((photo) => ({
+    src: photo,
+  }));
 
   function handleNavigateClick() {
     navigate("/contact");
@@ -51,7 +50,7 @@ const Homepage = () => {
   }
   return (
     <div>
-      <div style={{ width: "100%", maxHeight: "879px" }}>
+      <div style={{ width: "100%", maxHeight: "879px" }} className="shadow">
         <div
           style={{
             backgroundImage: `url(${homepageNew})`,
@@ -76,6 +75,7 @@ const Homepage = () => {
                 >
                   PLAN-TECH
                 </h1>
+
                 <img src={logo} className="homepageLogo" />
               </div>
             </div>
@@ -138,20 +138,22 @@ const Homepage = () => {
           }}
           className="narrowDivs"
         >
-          <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
-            <FormattedMessage id="app.homepage.ourWork" />
-          </div>
-          <div
-            className="NaseDeloText"
-            style={{
-              paddingLeft: "4%",
-              paddingRight: "4%",
-              paddingTop: "1%",
-              paddingBottom: "2%",
-            }}
-          >
-            <FormattedMessage id="app.homepage.ourWorkText" />
-          </div>
+          <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
+            <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
+              <FormattedMessage id="app.homepage.ourWork" />
+            </div>
+            <div
+              className="NaseDeloText"
+              style={{
+                paddingLeft: "4%",
+                paddingRight: "4%",
+                paddingTop: "1%",
+                paddingBottom: "2%",
+              }}
+            >
+              <FormattedMessage id="app.homepage.ourWorkText" />
+            </div>
+          </AnimationOnScroll>
           {/*           <div
             style={{
               backgroundImage: `url(${MetalStructures})`,
@@ -170,38 +172,40 @@ const Homepage = () => {
               backgroundColor: "#2d383c",
             }}
           >
-            <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
-              <FormattedMessage id="app.homepage.services" />
-            </div>
-            <div
-              style={{
-                paddingTop: "1%",
-                paddingLeft: "4%",
-                paddingRight: "4%",
-                paddingBottom: "2%",
-              }}
-              className="NaseDeloText"
-            >
-              <FormattedMessage id="app.homepage.servicesText1" />
-              <Button
-                onClick={() => {
-                  handleNavigateToQualityClick();
-                }}
-                variant="text"
+            <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
+              <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
+                <FormattedMessage id="app.homepage.services" />
+              </div>
+              <div
                 style={{
-                  paddingBottom: ".5%",
-                  paddingRight: ".8%",
-                  paddingLeft: ".8%",
-                  paddingTop: ".5%",
-                  fontFamily: "MyFont",
-                  fontSize: "inherit",
+                  paddingTop: "1%",
+                  paddingLeft: "4%",
+                  paddingRight: "4%",
+                  paddingBottom: "2%",
                 }}
                 className="NaseDeloText"
               >
-                <FormattedMessage id="app.homepage.servicesButton" />
-              </Button>
-              <FormattedMessage id="app.homepage.servicesText2" />
-            </div>
+                <FormattedMessage id="app.homepage.servicesText1" />
+                <Button
+                  onClick={() => {
+                    handleNavigateToQualityClick();
+                  }}
+                  variant="text"
+                  style={{
+                    paddingBottom: ".5%",
+                    paddingRight: ".8%",
+                    paddingLeft: ".8%",
+                    paddingTop: ".5%",
+                    fontFamily: "MyFont",
+                    fontSize: "inherit",
+                  }}
+                  className="NaseDeloText"
+                >
+                  <FormattedMessage id="app.homepage.servicesButton" />
+                </Button>
+                <FormattedMessage id="app.homepage.servicesText2" />
+              </div>
+            </AnimationOnScroll>
           </div>
           <div
             style={{
@@ -209,20 +213,22 @@ const Homepage = () => {
               backgroundColor: "#414c50",
             }}
           >
-            <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
-              <FormattedMessage id="app.homepage.howWeOperate" />
-            </div>
-            <div
-              style={{
-                paddingTop: "1%",
-                paddingLeft: "4%",
-                paddingRight: "4%",
-                paddingBottom: "2%",
-              }}
-              className="NaseDeloText"
-            >
-              <FormattedMessage id="app.homepage.howWeOperateText" />
-            </div>
+            <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
+              <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
+                <FormattedMessage id="app.homepage.howWeOperate" />
+              </div>
+              <div
+                style={{
+                  paddingTop: "1%",
+                  paddingLeft: "4%",
+                  paddingRight: "4%",
+                  paddingBottom: "2%",
+                }}
+                className="NaseDeloText"
+              >
+                <FormattedMessage id="app.homepage.howWeOperateText" />
+              </div>
+            </AnimationOnScroll>
           </div>
           <div
             style={{
@@ -230,20 +236,22 @@ const Homepage = () => {
               backgroundColor: "#2d383c",
             }}
           >
-            <div className="NaseDeloTitle" style={{ paddingTop: "2%" }}>
-              <FormattedMessage id="app.homepage.whyChooseUs" />
-            </div>
-            <div
-              style={{
-                paddingTop: "1%",
-                paddingLeft: "4%",
-                paddingRight: "4%",
-                paddingBottom: "0%",
-              }}
-              className="NaseDeloText"
-            >
-              <FormattedMessage id="app.homepage.whyChooseUsText" />
-            </div>
+            <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
+              <div className="NaseDeloTitle" style={{ paddingTop: "2%" }}>
+                <FormattedMessage id="app.homepage.whyChooseUs" />
+              </div>
+              <div
+                style={{
+                  paddingTop: "1%",
+                  paddingLeft: "4%",
+                  paddingRight: "4%",
+                  paddingBottom: "0%",
+                }}
+                className="NaseDeloText"
+              >
+                <FormattedMessage id="app.homepage.whyChooseUsText" />
+              </div>
+            </AnimationOnScroll>
           </div>
         </div>
         <div
@@ -269,106 +277,112 @@ const Homepage = () => {
               paddingTop: "1%",
               paddingBottom: "1%",
             }}
+            className="flexDirection"
           >
             <div
               style={{
                 fontFamily: "MyFont",
               }}
+              className="galleryDiv"
             >
-              <div className="NaseDeloTitle2" style={{ paddingLeft: "12%" }}>
-                <FormattedMessage id="app.homepage.gallery" />
-              </div>
-              <div className="NaseDeloText2">
-                <Button
-                  onClick={() => {
-                    handleNavigateToGalleryClick();
-                  }}
-                  variant="text"
-                  style={{
-                    paddingBottom: ".5%",
-                    paddingRight: ".8%",
-                    paddingLeft: ".8%",
-                    paddingTop: ".5%",
-                    fontFamily: "MyFont",
-                    fontSize: "inherit",
-                  }}
-                  className="NaseDeloText"
-                >
-                  <FormattedMessage id="app.homepage.galleryButton" />
-                </Button>
-                <FormattedMessage id="app.homepage.galleryText" />
-              </div>
+              <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
+                <div className="NaseDeloTitle2">
+                  <FormattedMessage id="app.homepage.gallery" />
+                </div>
+                <div className="NaseDeloText2">
+                  <Button
+                    onClick={() => {
+                      handleNavigateToGalleryClick();
+                    }}
+                    variant="text"
+                    style={{
+                      fontFamily: "MyFont",
+                      fontSize: "inherit",
+                    }}
+                  >
+                    <FormattedMessage id="app.homepage.galleryButton" />
+                  </Button>
+                  <FormattedMessage id="app.homepage.galleryText" />
+                </div>
+              </AnimationOnScroll>
             </div>
             <div
               style={{
                 fontFamily: "MyFont",
               }}
             >
-              <div className="carouselDiv">
-                <Carousel
-                  images={images1}
-                  hasMediaButton={false}
-                  transitionDurationLimit={750}
-                  hasLeftButton={false}
-                  hasRightButton={false}
-                  hasIndexBoard={false}
-                  objectFit="cover"
-                  shouldLazyLoad={true}
-                  isAutoPlaying={true}
-                  autoPlayInterval={3000}
-                />
-              </div>
+              <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
+                <div className="carouselDiv">
+                  <Carousel
+                    images={images1}
+                    hasMediaButton={false}
+                    transitionDurationLimit={750}
+                    hasLeftButton={false}
+                    hasRightButton={false}
+                    hasIndexBoard={false}
+                    objectFit="cover"
+                    shouldLazyLoad={true}
+                    isAutoPlaying={true}
+                    autoPlayInterval={3000}
+                  />
+                </div>
+              </AnimationOnScroll>
             </div>
           </div>
         </div>
         <div>
-          <div
-            className="NaseDeloTitle"
-            style={{ color: "white", paddingTop: "1%", fontFamily: "MyFont" }}
-          >
-            <FormattedMessage id="app.homepage.location" />
-          </div>
-          <div
-            className="NaseDeloText"
-            style={{
-              color: "white",
-              fontFamily: "MyFont",
-              paddingLeft: "10%",
-              paddingRight: "10%",
-            }}
-          >
-            <FormattedMessage id="app.homepage.locationText" />
-          </div>
-          <Button
-            onClick={() => {
-              handleNavigateClick();
-            }}
-            variant="contained"
-            style={{
-              marginTop: "1%",
-              fontFamily: "MyFont",
-              backgroundColor: "red",
-              marginBottom: "3%",
-              fontSize: "inherit",
-            }}
-          >
-            <FormattedMessage id="app.homepage.locationButton" />
-          </Button>
+          <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
+            <div
+              className="NaseDeloTitle"
+              style={{ color: "white", paddingTop: "1%", fontFamily: "MyFont" }}
+            >
+              <FormattedMessage id="app.homepage.location" />
+            </div>
+            <div
+              className="NaseDeloText"
+              style={{
+                color: "white",
+                fontFamily: "MyFontNoBold",
+                paddingLeft: "10%",
+                paddingRight: "10%",
+              }}
+            >
+              <FormattedMessage id="app.homepage.locationText" />
+            </div>
+            <Button
+              onClick={() => {
+                handleNavigateClick();
+              }}
+              variant="contained"
+              style={{
+                marginTop: "1%",
+                fontFamily: "MyFont",
+                backgroundColor: "red",
+                marginBottom: "3%",
+                fontSize: "inherit",
+              }}
+            >
+              <FormattedMessage id="app.homepage.locationButton" />
+            </Button>
+          </AnimationOnScroll>
         </div>
-        <MapContainer
-          center={[46.387187, 15.965526]}
-          zoom={13}
-          style={{ height: "400px" }}
-        >
-          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-          <Marker position={[46.387187, 15.965526]} icon={pin}>
-            <Popup>
-              Bukovci 080, Markovci,
-              <br />
-              Slovenia
-            </Popup>
-          </Marker>
-        </MapContainer>
+        <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
+          <MapContainer
+            center={[46.387187, 15.965526]}
+            zoom={13}
+            style={{ height: "400px" }}
+            className="map"
+          >
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[46.387187, 15.965526]} icon={pin}>
+              <Popup>
+                Bukovci 080, Markovci,
+                <br />
+                Slovenia
+              </Popup>
+            </Marker>
+          </MapContainer>
+        </AnimationOnScroll>
       </div>
     </div>
   );

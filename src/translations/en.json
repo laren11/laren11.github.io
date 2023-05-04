@@ -12,8 +12,8 @@
   "app.homepage.ourWorkText": "Our experienced welders use the latest technology and techniques to create precise, high-quality welds that are strong and durable. From stainless steel to aluminum and titanium alloy, we work with a variety of materials to create custom metalwork that meets specific customer needs.",
   "app.homepage.services": "Services",
   "app.homepage.servicesText1": "We offer a wide range of welding services for a variety of applications and materials, including MIG, TIG, MAG, electrode and laser welding. Our experts are experienced and qualified to perform all types of welding work. We provide our customers with quality and reliable service and are proud of our team of experienced welders who have a variety of",
-  "app.homepage.servicesButton": "certificates and qualifications",
-  "app.homepage.servicesText2": ". Our welding work complies with modern industry standards, ensuring that your project is completed to the highest quality.",
+  "app.homepage.servicesButton": "certificates and qualifications.",
+  "app.homepage.servicesText2": " Our welding work complies with modern industry standards, ensuring that your project is completed to the highest quality.",
   "app.homepage.howWeOperate": "How we operate",
   "app.homepage.howWeOperateText": "We use the latest technology and expertise in our work. We prepare an individual work plan for each client that meets their specific needs. Our goal is to provide an efficient and personalized service for each individual customer.",
   "app.homepage.whyChooseUs": "Why choose us?",
@@ -26,7 +26,7 @@
   "app.homepage.locationButton": "contact us!",
 
   "app.quality.text": "The quality of the services provided is our basic competitive advantage, which we want to demonstrate in an officially recognized way. That is why we have obtained certificates",
-  "app.quality.textBold": "ISO 9001:2008, EN ISO 3834-2, AD 2000 HP0, SCCP, EN 729/3 (DIN 18800/7) in EN 1090-2",
+  "app.quality.textBold": " ISO 9001:2008, EN ISO 3834-2, AD 2000 HP0, SCCP, EN 729/3 (DIN 18800/7) in EN 1090-2",
 
   "app.contact.contactUs": "Contact us!",
   "app.contact.message": "Message",

@@ -8,6 +8,12 @@
     url("./fonts/RobotoSlab-Bold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "MyFontNoBold";
+  src: local("RobotoSlab-Regular"),
+    url("./fonts/RobotoSlab-Regular.ttf") format("truetype");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

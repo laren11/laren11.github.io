@@ -13,6 +13,7 @@ import italian from "./translations/it.json";
 import { useState, useEffect, createContext } from "react";
 import LocalizationContext from "./context/LocalizationContext";
 import Footer from "./components/footer/Footer";
+import "animate.css/animate.min.css";
 
 //fonts
 import "./fonts/RobotoSlab-Bold.ttf";

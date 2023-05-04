@@ -12,6 +12,9 @@
     position: absolute;
     right: 3%;
   }
+  div > .carouselDiv {
+    height: 40vh;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -64,19 +67,21 @@
   div > .NaseDeloTitle2 {
     font-size: 2.3em;
     padding-top: 10%;
+    padding-left: 0;
   }
   div > .NaseDeloText2 {
     font-size: 1.2em;
     min-width: 50vw;
-    padding-left: 6%;
-    padding-bottom: 12%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5%;
   }
   div > .spacerDiv {
     height: 1000px;
   }
 
   div > .carouselDiv {
-    height: 380px;
+    height: 550px;
     width: auto;
   }
   div > .logoImage {
@@ -97,11 +102,30 @@
     margin-left: 10%;
     margin-right: 10%;
   }
+  div > .flexDirection {
+    flex-direction: column;
+  }
+  div > .galleryDiv {
+    padding-left: 0;
+  }
+}
+
+.galleryDiv {
+  padding-left: 5%;
+}
+
+.flexDirection {
+  flex-direction: row;
 }
 
 .narrowDivs {
   margin-left: 18%;
   margin-right: 18%;
+}
+
+.map {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
 }
 
 .divOverflow {
@@ -129,7 +153,7 @@
 }
 
 .carouselDiv {
-  height: 380px;
+  height: 23vw;
   margin-top: 5%;
   margin-left: 14%;
   margin-right: 14%;
@@ -182,15 +206,18 @@
 
 .NaseDeloText {
   font-size: 1.5em;
+  font-family: "MyFontNoBold";
 }
 
 .NaseDeloText2 {
   font-size: 1.5em;
   padding-left: 12%;
+  font-family: "MyFontNoBold";
 }
 
 .NaseDeloTitle2 {
   font-size: 3em;
+  padding-left: 12%;
 }
 
 .black-fade-bottom {
@@ -295,6 +322,11 @@
   border-radius: 10px;
   box-shadow: 7px 7px 14px #949494, -7px -7px 14px #ffffff;
   margin: auto;
+}
+.shadow {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
 }
 
 .fancy {

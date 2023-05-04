@@ -30,7 +30,7 @@ const Quality = () => {
   };
 
   return (
-    <div>
+    <div className="background">
       <div className="title">
         <FormattedMessage id="app.quality" />
       </div>

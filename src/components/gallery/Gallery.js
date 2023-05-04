@@ -102,6 +102,7 @@ const Gallery = () => {
         hasMediaButton={false}
         transitionDurationLimit={750}
         objectFit="contain"
+        hasThumbnails={false}
         style={{ height: "90vh", width: "100%", background: "transparent" }}
       />
       <div className="NaseDeloTitleGallery">
@@ -112,6 +113,7 @@ const Gallery = () => {
         hasMediaButton={false}
         transitionDurationLimit={750}
         objectFit="contain"
+        hasThumbnails={false}
         style={{ height: "90vh", width: "100%", background: "transparent" }}
       />
       <div className="NaseDeloTitleGallery">
@@ -122,6 +124,7 @@ const Gallery = () => {
         hasMediaButton={false}
         transitionDurationLimit={750}
         objectFit="contain"
+        hasThumbnails={false}
         style={{ height: "90vh", width: "100%", background: "transparent" }}
       />
     </div>

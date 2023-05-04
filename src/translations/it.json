@@ -12,8 +12,8 @@
   "app.homepage.ourWorkText": "I nostri saldatori esperti utilizzano le tecnologie e le tecniche più recenti per creare saldature precise e di alta qualità, resistenti e durevoli. Dall'acciaio inossidabile all'alluminio e alla lega di titanio, lavoriamo con una varietà di materiali per creare lavorazioni metalliche personalizzate che soddisfino le esigenze specifiche del cliente.",
   "app.homepage.services": "Servizi",
   "app.homepage.servicesText1": "Offriamo una vasta gamma di servizi di saldatura per una varietà di applicazioni e materiali, tra cui saldatura MIG, TIG, MAG, elettrodo e laser. I nostri esperti sono esperti e qualificati per eseguire tutti i tipi di lavori di saldatura. Forniamo ai nostri clienti un servizio affidabile e di qualità e siamo orgogliosi del nostro team di saldatori esperti che hanno una varietà di ",
-  "app.homepage.servicesButton": "certificati e qualifiche",
-  "app.homepage.servicesText2": ". Il nostro lavoro di saldatura è conforme ai moderni standard del settore, garantendo che il tuo progetto sia completato con la massima qualità.",
+  "app.homepage.servicesButton": "certificati e qualifiche.",
+  "app.homepage.servicesText2": " Il nostro lavoro di saldatura è conforme ai moderni standard del settore, garantendo che il tuo progetto sia completato con la massima qualità.",
   "app.homepage.howWeOperate": "Come operiamo",
   "app.homepage.howWeOperateText": "Utilizziamo le ultime tecnologie e competenze nel nostro lavoro. Prepariamo un piano di lavoro individuale per ogni cliente che soddisfi le sue esigenze specifiche. Il nostro obiettivo è fornire un servizio efficiente e personalizzato per ogni singolo cliente.",
   "app.homepage.whyChooseUs": "Perché scegliere noi??",
@@ -26,7 +26,7 @@
   "app.homepage.locationButton": "Contattaci!",
 
   "app.quality.text": "La qualità dei servizi forniti è il nostro fondamentale vantaggio competitivo, che vogliamo dimostrare in modo ufficialmente riconosciuto. Ecco perché abbiamo ottenuto i certificati",
-  "app.quality.textBold": "ISO 9001:2008, EN ISO 3834-2, AD 2000 HP0, SCCP, EN 729/3 (DIN 18800/7) in EN 1090-2",
+  "app.quality.textBold": " ISO 9001:2008, EN ISO 3834-2, AD 2000 HP0, SCCP, EN 729/3 (DIN 18800/7) in EN 1090-2",
 
   "app.contact.contactUs": "Contattaci!",
   "app.contact.message": "Messaggio",
