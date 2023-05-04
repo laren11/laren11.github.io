@@ -83,6 +83,7 @@
   div > .carouselDiv {
     height: 550px;
     width: auto;
+    margin-bottom: 10%;
   }
   div > .logoImage {
     background-size: 70%;
