@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bfa12ba9.css",
-    "main.js": "/static/js/main.c83abbfd.js",
+    "main.css": "/static/css/main.a80398bd.css",
+    "main.js": "/static/js/main.a1005fcb.js",
     "static/js/787.fdf44c86.chunk.js": "/static/js/787.fdf44c86.chunk.js",
     "static/media/welderNew.jpg": "/static/media/welderNew.2f088ebc8c2203444c47.jpg",
     "static/media/homepage-welder.png": "/static/media/homepage-welder.01b575454be6748ac405.png",
@@ -28,6 +28,7 @@
     "static/media/certifikat1010.jpg": "/static/media/certifikat1010.96b9d3413c05200fff30.jpg",
     "static/media/certifikat9.PDF": "/static/media/certifikat9.5965f5927fbdc11a27f8.PDF",
     "static/media/RobotoSlab-Bold.ttf": "/static/media/RobotoSlab-Bold.782c0d76a12a08d80d48.ttf",
+    "static/media/RobotoSlab-Regular.ttf": "/static/media/RobotoSlab-Regular.39c7af8a5d124ff3c247.ttf",
     "static/media/certifikat33.jpg": "/static/media/certifikat33.f5960611de43d5e19d30.jpg",
     "static/media/logo.png": "/static/media/logo.e527012ef4c3d31043f5.png",
     "static/media/certifikat66.jpg": "/static/media/certifikat66.b91bc7004906db120f68.jpg",
@@ -48,12 +49,12 @@
     "static/media/Welding1.webp": "/static/media/Welding1.193c2d18f04519235f67.webp",
     "static/media/placeholder.png": "/static/media/placeholder.64cdcb0ef97818161310.png",
     "index.html": "/index.html",
-    "main.bfa12ba9.css.map": "/static/css/main.bfa12ba9.css.map",
-    "main.c83abbfd.js.map": "/static/js/main.c83abbfd.js.map",
+    "main.a80398bd.css.map": "/static/css/main.a80398bd.css.map",
+    "main.a1005fcb.js.map": "/static/js/main.a1005fcb.js.map",
     "787.fdf44c86.chunk.js.map": "/static/js/787.fdf44c86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfa12ba9.css",
-    "static/js/main.c83abbfd.js"
+    "static/css/main.a80398bd.css",
+    "static/js/main.a1005fcb.js"
   ]
 }
