@@ -45,42 +45,52 @@ const Quality = () => {
           <img
             src={certifikat11}
             onClick={() => handleImageClick(certifikat1)}
+            className="certificate"
           />
           <img
             src={certifikat22}
             onClick={() => handleImageClick(certifikat2)}
+            className="certificate"
           />
           <img
             src={certifikat99}
             onClick={() => handleImageClick(certifikat9)}
+            className="certificate"
           />
           <img
             src={certifikat1010}
             onClick={() => handleImageClick(certifikat10)}
+            className="certificate"
           />
           <img
             src={certifikat33}
             onClick={() => handleImageClick(certifikat3)}
+            className="certificate"
           />
           <img
             src={certifikat44}
             onClick={() => handleImageClick(certifikat4)}
+            className="certificate"
           />
           <img
             src={certifikat55}
             onClick={() => handleImageClick(certifikat5)}
+            className="certificate"
           />
           <img
             src={certifikat66}
             onClick={() => handleImageClick(certifikat6)}
+            className="certificate"
           />
           <img
             src={certifikat77}
             onClick={() => handleImageClick(certifikat7)}
+            className="certificate"
           />
           <img
             src={certifikat88}
             onClick={() => handleImageClick(certifikat8)}
+            className="certificate"
           />
         </div>
       </div>

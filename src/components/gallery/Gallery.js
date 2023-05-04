@@ -103,7 +103,12 @@ const Gallery = () => {
         transitionDurationLimit={750}
         objectFit="contain"
         hasThumbnails={false}
-        style={{ height: "90vh", width: "100%", background: "transparent" }}
+        style={{
+          height: "70vh",
+          width: "100%",
+          background: "transparent",
+          paddingBottom: "2%",
+        }}
       />
       <div className="NaseDeloTitleGallery">
         <FormattedMessage id="app.gallery.title2" />
@@ -114,7 +119,12 @@ const Gallery = () => {
         transitionDurationLimit={750}
         objectFit="contain"
         hasThumbnails={false}
-        style={{ height: "90vh", width: "100%", background: "transparent" }}
+        style={{
+          height: "70vh",
+          width: "100%",
+          background: "transparent",
+          paddingBottom: "2%",
+        }}
       />
       <div className="NaseDeloTitleGallery">
         <FormattedMessage id="app.gallery.title3" />
@@ -125,7 +135,12 @@ const Gallery = () => {
         transitionDurationLimit={750}
         objectFit="contain"
         hasThumbnails={false}
-        style={{ height: "90vh", width: "100%", background: "transparent" }}
+        style={{
+          height: "70vh",
+          width: "100%",
+          background: "transparent",
+          paddingBottom: "7%",
+        }}
       />
     </div>
   );
