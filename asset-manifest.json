@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a80398bd.css",
-    "main.js": "/static/js/main.a1005fcb.js",
+    "main.css": "/static/css/main.4e0e188c.css",
+    "main.js": "/static/js/main.2c5fe17e.js",
     "static/js/787.fdf44c86.chunk.js": "/static/js/787.fdf44c86.chunk.js",
     "static/media/welderNew.jpg": "/static/media/welderNew.2f088ebc8c2203444c47.jpg",
     "static/media/homepage-welder.png": "/static/media/homepage-welder.01b575454be6748ac405.png",
@@ -49,12 +49,12 @@
     "static/media/Welding1.webp": "/static/media/Welding1.193c2d18f04519235f67.webp",
     "static/media/placeholder.png": "/static/media/placeholder.64cdcb0ef97818161310.png",
     "index.html": "/index.html",
-    "main.a80398bd.css.map": "/static/css/main.a80398bd.css.map",
-    "main.a1005fcb.js.map": "/static/js/main.a1005fcb.js.map",
+    "main.4e0e188c.css.map": "/static/css/main.4e0e188c.css.map",
+    "main.2c5fe17e.js.map": "/static/js/main.2c5fe17e.js.map",
     "787.fdf44c86.chunk.js.map": "/static/js/787.fdf44c86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a80398bd.css",
-    "static/js/main.a1005fcb.js"
+    "static/css/main.4e0e188c.css",
+    "static/js/main.2c5fe17e.js"
   ]
 }
