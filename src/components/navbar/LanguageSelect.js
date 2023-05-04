@@ -21,6 +21,9 @@ const LanguageSelect = () => {
       case "de":
         setFlagLanguage("DE");
         break;
+      case "it":
+        setFlagLanguage("IT");
+        break;
       default:
     }
   }, []);
@@ -32,7 +35,7 @@ const LanguageSelect = () => {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-#414c50 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-gray-300 hover:bg-gray-600">
           <Flag country={flagLanguage} />
           <ChevronDownIcon
             className="-mr-1 h-5 w-5 text-gray-400"
@@ -105,6 +108,25 @@ const LanguageSelect = () => {
                   <div className="flex ">
                     <Flag country="DE" className="mr-1" />
                     Deutsch
+                  </div>
+                </a>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  onClick={() => {
+                    setFlagLanguage("IT");
+                    setLanguage("it");
+                  }}
+                  className={classNames(
+                    active ? "bg-gray-100 text-gray-900" : "text-gray-700",
+                    "block px-4 py-2 text-sm"
+                  )}
+                >
+                  <div className="flex ">
+                    <Flag country="IT" className="mr-1" />
+                    Italiano
                   </div>
                 </a>
               )}

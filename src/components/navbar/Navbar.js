@@ -6,6 +6,7 @@ import Hamburger from "hamburger-react";
 import { FormattedMessage } from "react-intl";
 import LocalizationContext from "../../context/LocalizationContext";
 import logo from "../../photos/logo.png";
+import "./Navbar.css";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +18,8 @@ function Navbar() {
   }
 
   return (
-    <div style={{ fontFamily: "MyFont" }}>
-      <nav className="" style={{ backgroundColor: "whitesmoke" }}>
+    <div className="Navbar" style={{ fontFamily: "MyFont" }}>
+      <nav className="" style={{ backgroundColor: "#414c50" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -34,28 +35,28 @@ function Navbar() {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link
                     to="/"
-                    className=" hover:bg-gray-100 text-black px-3 py-2 rounded-md text-md font-medium"
+                    className=" hover:bg-gray-600 text-white px-3 py-2 rounded-md text-md font-medium"
                   >
                     <FormattedMessage id="app.homepage" />
                   </Link>
 
                   <Link
                     to="/quality"
-                    className="text-black hover:bg-gray-100 hover:text-gray-600 px-3 py-2 rounded-md text-md font-medium"
+                    className="text-white hover:bg-gray-600  px-3 py-2 rounded-md text-md font-medium"
                   >
                     <FormattedMessage id="app.quality" />
                   </Link>
 
                   <Link
                     to="/contact"
-                    className="text-black hover:bg-gray-100 hover:text-gray-600 px-3 py-2 rounded-md text-md font-medium"
+                    className="text-white hover:bg-gray-600  px-3 py-2 rounded-md text-md font-medium"
                   >
                     <FormattedMessage id="app.contact" />
                   </Link>
 
                   <Link
                     to="/gallery"
-                    className="text-black hover:bg-gray-100 hover:text-gray-600 px-3 py-2 rounded-md text-md font-medium"
+                    className="text-white hover:bg-gray-600  px-3 py-2 rounded-md text-md font-medium"
                   >
                     <FormattedMessage id="app.gallery" />
                   </Link>
@@ -97,7 +98,7 @@ function Navbar() {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link
                   to="/"
-                  className="hover:bg-gray-100 text-black block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-gray-600 text-white block px-3 py-2 rounded-md text-base font-medium"
                   onClick={() => setIsOpen(false)}
                 >
                   <FormattedMessage id="app.homepage" />
@@ -105,7 +106,7 @@ function Navbar() {
 
                 <Link
                   to="/quality"
-                  className="text-black hover:bg-gray-100 hover:text-gray-600 block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-gray-600 block px-3 py-2 rounded-md text-base font-medium"
                   onClick={() => setIsOpen(false)}
                 >
                   <FormattedMessage id="app.quality" />
@@ -113,7 +114,7 @@ function Navbar() {
 
                 <Link
                   to="/contact"
-                  className="text-black hover:bg-gray-100 hover:text-gray-600 block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-gray-600 block px-3 py-2 rounded-md text-base font-medium"
                   onClick={() => setIsOpen(false)}
                 >
                   <FormattedMessage id="app.contact" />
@@ -121,7 +122,7 @@ function Navbar() {
 
                 <Link
                   to="/gallery"
-                  className="text-black hover:bg-gray-100 hover:text-gray-600 block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-gray-600 block px-3 py-2 rounded-md text-base font-medium"
                   onClick={() => setIsOpen(false)}
                 >
                   <FormattedMessage id="app.gallery" />

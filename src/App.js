@@ -9,6 +9,7 @@ import { IntlProvider } from "react-intl"; //for translations
 import slovenian from "./translations/slo.json";
 import english from "./translations/en.json";
 import deutsch from "./translations/de.json";
+import italian from "./translations/it.json";
 import { useState, useEffect, createContext } from "react";
 import LocalizationContext from "./context/LocalizationContext";
 import Footer from "./components/footer/Footer";
@@ -20,6 +21,7 @@ const messages = {
   si: slovenian,
   en: english,
   de: deutsch,
+  it: italian,
 };
 
 function App() {

@@ -23,7 +23,9 @@
   height: auto;
   border-radius: 10px;
   background: #e0e0e0;
-  box-shadow: 12px 12px 37px #aaaaaa, -12px -12px 37px #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
   border: 1px solid black;
   background-color: whitesmoke;
 }
@@ -36,9 +38,10 @@
 }
 
 .SubmitButton {
-  border-radius: 40px;
-  background: linear-gradient(145deg, #cacaca, #f0f0f0);
-  box-shadow: 20px 17px 20px #bebebe, -20px -17px 20px #ffffff;
+  border-radius: 10px;
+  background: rgb(239, 243, 255);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
   width: 10vw;
   min-width: 120px;
   margin: auto;
@@ -47,9 +50,7 @@
 }
 
 .SubmitButton:active {
-  border-radius: 40px;
-  background: linear-gradient(145deg, #cacaca, #f0f0f0);
-  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  box-shadow: 5px 5px 10px #bebebe, -3px -3px 10px #ffffff;
 }
 
 .messageArea {

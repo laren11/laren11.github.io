@@ -14,12 +14,12 @@ import "leaflet/dist/leaflet.css";
 import placeholder from "../../photos/placeholder.png";
 import L from "leaflet";
 import homepageNew from "../../photos/homepageNew.jpg";
-import photo1 from "../../photos/carousel-1/1.jpg";
-import photo2 from "../../photos/carousel-1/2.jpg";
-import photo3 from "../../photos/carousel-1/3.jpg";
-import photo4 from "../../photos/carousel-1/4.jpg";
-import photo5 from "../../photos/carousel-1/5.jpg";
-import photo6 from "../../photos/carousel-1/6.jpg";
+import photo1 from "../../photos/carousel-3/1.jpg";
+import photo2 from "../../photos/carousel-3/2.jpg";
+import photo3 from "../../photos/carousel-3/3.jpg";
+import photo4 from "../../photos/carousel-3/4.jpg";
+import photo5 from "../../photos/carousel-3/5.jpg";
+import photo6 from "../../photos/carousel-3/6.jpg";
 import Carousel from "react-gallery-carousel";
 
 const Homepage = () => {
@@ -95,12 +95,14 @@ const Homepage = () => {
       </div>
       <div
         style={{
-          paddingLeft: "19%",
-          paddingRight: "19%",
+          paddingLeft: "10%",
+          paddingRight: "10%",
           fontFamily: "MyFont",
           backgroundImage: `url(${logo})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "50% 50%",
+          backgroundColor: "#414c50",
+          color: "white",
         }}
         className="logoImage"
       >
@@ -123,18 +125,18 @@ const Homepage = () => {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
+          color: "white",
         }}
       >
         {/* <div className="spacerDiv"></div> */}
         <div
           style={{
-            background: "whitesmoke",
-            marginLeft: "10%",
-            marginRight: "10%",
+            background: "#414c50",
             paddingTop: "3%",
             height: "100%",
             fontFamily: "MyFont",
           }}
+          className="narrowDivs"
         >
           <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
             <FormattedMessage id="app.homepage.ourWork" />
@@ -165,7 +167,7 @@ const Homepage = () => {
           <div
             style={{
               height: "auto",
-              backgroundColor: "darkgray",
+              backgroundColor: "#2d383c",
             }}
           >
             <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
@@ -185,14 +187,13 @@ const Homepage = () => {
                 onClick={() => {
                   handleNavigateToQualityClick();
                 }}
-                variant="contained"
+                variant="text"
                 style={{
                   paddingBottom: ".5%",
                   paddingRight: ".8%",
                   paddingLeft: ".8%",
                   paddingTop: ".5%",
                   fontFamily: "MyFont",
-                  backgroundColor: "blue",
                   fontSize: "inherit",
                 }}
                 className="NaseDeloText"
@@ -205,7 +206,7 @@ const Homepage = () => {
           <div
             style={{
               height: "auto",
-              backgroundColor: "whitesmoke",
+              backgroundColor: "#414c50",
             }}
           >
             <div className="NaseDeloTitle" style={{ paddingTop: "1%" }}>
@@ -226,7 +227,7 @@ const Homepage = () => {
           <div
             style={{
               height: "auto",
-              backgroundColor: "darkgray",
+              backgroundColor: "#2d383c",
             }}
           >
             <div className="NaseDeloTitle" style={{ paddingTop: "2%" }}>
@@ -252,14 +253,13 @@ const Homepage = () => {
             position: "relative",
             height: "auto",
             top: "10%",
+            color: "black",
           }}
         >
           <div
+            className="divOverflow"
             style={{
-              width: "80%",
-              height: "4vw",
-              backgroundColor: "darkgray",
-              marginLeft: "10%",
+              backgroundColor: "#2d383c",
             }}
           ></div>
           <div
@@ -283,14 +283,13 @@ const Homepage = () => {
                   onClick={() => {
                     handleNavigateToGalleryClick();
                   }}
-                  variant="contained"
+                  variant="text"
                   style={{
                     paddingBottom: ".5%",
                     paddingRight: ".8%",
                     paddingLeft: ".8%",
                     paddingTop: ".5%",
                     fontFamily: "MyFont",
-                    backgroundColor: "blue",
                     fontSize: "inherit",
                   }}
                   className="NaseDeloText"
@@ -305,12 +304,18 @@ const Homepage = () => {
                 fontFamily: "MyFont",
               }}
             >
-              <div className="carouselDiv" style={{ borderRadius: "5px" }}>
+              <div className="carouselDiv">
                 <Carousel
                   images={images1}
                   hasMediaButton={false}
-                  transitionDurationLimit={500}
+                  transitionDurationLimit={750}
+                  hasLeftButton={false}
+                  hasRightButton={false}
+                  hasIndexBoard={false}
                   objectFit="cover"
+                  shouldLazyLoad={true}
+                  isAutoPlaying={true}
+                  autoPlayInterval={3000}
                 />
               </div>
             </div>
@@ -344,6 +349,7 @@ const Homepage = () => {
               fontFamily: "MyFont",
               backgroundColor: "red",
               marginBottom: "3%",
+              fontSize: "inherit",
             }}
           >
             <FormattedMessage id="app.homepage.locationButton" />

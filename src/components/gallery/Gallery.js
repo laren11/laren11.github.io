@@ -100,9 +100,9 @@ const Gallery = () => {
       <Carousel
         images={images1}
         hasMediaButton={false}
-        transitionDurationLimit={500}
+        transitionDurationLimit={750}
         objectFit="contain"
-        style={{ height: "90vh", width: "100%" }}
+        style={{ height: "90vh", width: "100%", background: "transparent" }}
       />
       <div className="NaseDeloTitleGallery">
         <FormattedMessage id="app.gallery.title2" />
@@ -110,9 +110,9 @@ const Gallery = () => {
       <Carousel
         images={images2}
         hasMediaButton={false}
-        transitionDurationLimit={500}
+        transitionDurationLimit={750}
         objectFit="contain"
-        style={{ height: "90vh", width: "100%" }}
+        style={{ height: "90vh", width: "100%", background: "transparent" }}
       />
       <div className="NaseDeloTitleGallery">
         <FormattedMessage id="app.gallery.title3" />
@@ -120,9 +120,9 @@ const Gallery = () => {
       <Carousel
         images={images3}
         hasMediaButton={false}
-        transitionDurationLimit={500}
+        transitionDurationLimit={750}
         objectFit="contain"
-        style={{ height: "90vh", width: "100%" }}
+        style={{ height: "90vh", width: "100%", background: "transparent" }}
       />
     </div>
   );
