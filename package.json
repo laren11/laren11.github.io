@@ -1,7 +1,7 @@
 {
   "name": "plantech",
   "version": "0.1.0",
-  "homepage": "https://laren11.github.io",
+  "homepage": "https://plan-tech.net",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
