@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.fcace9ef.css",
-    "main.js": "/static/js/main.a57a5116.js",
+    "main.js": "/static/js/main.9082f04e.js",
     "static/js/787.fdf44c86.chunk.js": "/static/js/787.fdf44c86.chunk.js",
     "static/media/homepageNew2.jpg": "/static/media/homepageNew2.1d48a5cd89ddfc563ed1.jpg",
     "static/media/welderNew.jpg": "/static/media/welderNew.2f088ebc8c2203444c47.jpg",
     "static/media/homepage-welder.png": "/static/media/homepage-welder.01b575454be6748ac405.png",
-    "static/media/galleryBackground.jpg": "/static/media/galleryBackground.74337fb831233e1ddd07.jpg",
+    "static/media/galleryBackground4.jpg": "/static/media/galleryBackground4.7675f14e9492321bedb0.jpg",
     "static/media/certifikat3.pdf": "/static/media/certifikat3.876c86cf63423878dcf6.pdf",
     "static/media/certifikat10.PDF": "/static/media/certifikat10.1b368984ce6367b345f0.PDF",
     "static/media/certifikat2.pdf": "/static/media/certifikat2.76baee178a05efdedde0.pdf",
@@ -53,11 +53,11 @@
     "static/media/placeholder.png": "/static/media/placeholder.64cdcb0ef97818161310.png",
     "index.html": "/index.html",
     "main.fcace9ef.css.map": "/static/css/main.fcace9ef.css.map",
-    "main.a57a5116.js.map": "/static/js/main.a57a5116.js.map",
+    "main.9082f04e.js.map": "/static/js/main.9082f04e.js.map",
     "787.fdf44c86.chunk.js.map": "/static/js/787.fdf44c86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcace9ef.css",
-    "static/js/main.a57a5116.js"
+    "static/js/main.9082f04e.js"
   ]
 }
