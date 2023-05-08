@@ -30,7 +30,7 @@
     font-size: 5vw;
     width: 80%;
     position: absolute;
-    right: 20%;
+    right: 18%;
   }
   div > .text-picture-container-1 {
     flex-direction: column;
@@ -114,7 +114,7 @@
   }
   div > .certificatesLogos {
     padding-top: 10%;
-    left: 5%;
+    left: 3%;
   }
   div > .certificateLogo {
     height: 10vw;
