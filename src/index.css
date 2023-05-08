@@ -5,13 +5,13 @@
 @font-face {
   font-family: "MyFont";
   src: local("RobotoSlab-bold"),
-    url("./fonts/RobotoSlab-Bold.ttf") format("truetype");
+    url("./fonts/Barlow/Barlow-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "MyFontNoBold";
   src: local("RobotoSlab-Regular"),
-    url("./fonts/RobotoSlab-Regular.ttf") format("truetype");
+    url("./fonts/Barlow/Barlow-Regular.ttf") format("truetype");
 }
 
 body {

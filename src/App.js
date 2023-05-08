@@ -16,7 +16,6 @@ import Footer from "./components/footer/Footer";
 import "animate.css/animate.min.css";
 
 //fonts
-import "./fonts/RobotoSlab-Bold.ttf";
 
 const messages = {
   si: slovenian,

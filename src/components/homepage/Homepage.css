@@ -15,12 +15,15 @@
   div > .carouselDiv {
     height: 40vh;
   }
+  div > .certificatesLogos {
+    padding-top: 0%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   div > .homepageTitle {
     font-size: 13vw;
-    padding-top: 30vh;
+    padding-top: 5vh;
     flex-direction: column;
   }
   div > .homepage-picture-text {
@@ -109,6 +112,25 @@
   div > .galleryDiv {
     padding-left: 0;
   }
+  div > .certificatesLogos {
+    padding-top: 10%;
+    left: 5%;
+  }
+  div > .certificateLogo {
+    height: 10vw;
+  }
+}
+
+.certificateLogo {
+  height: 4.5vw;
+  margin: 2%;
+}
+
+.certificatesLogos {
+  display: flex;
+  padding-top: 13%;
+  position: absolute;
+  left: -25%;
 }
 
 .galleryDiv {
@@ -148,6 +170,7 @@
 
 .homepagePlanTech {
   height: auto;
+  background-position: 50% 35%;
 }
 .logoImage {
   background-size: 30%;

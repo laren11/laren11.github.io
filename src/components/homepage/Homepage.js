@@ -13,15 +13,19 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import placeholder from "../../photos/placeholder.png";
 import L from "leaflet";
-import homepageNew from "../../photos/homepageNew.jpg";
+import homepageNew2 from "../../photos/homepageNew2.jpg";
 import photo1 from "../../photos/carousel-3/1.jpg";
 import photo2 from "../../photos/carousel-3/2.jpg";
 import photo3 from "../../photos/carousel-3/3.jpg";
 import photo4 from "../../photos/carousel-3/4.jpg";
-import photo5 from "../../photos/carousel-3/5.jpg";
 import photo6 from "../../photos/carousel-3/6.jpg";
 import Carousel from "react-gallery-carousel";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import certificate1 from "../../photos/CertificateLogos/1.png";
+import certificate2 from "../../photos/CertificateLogos/2.png";
+import certificate3 from "../../photos/CertificateLogos/3.png";
+import certificate4 from "../../photos/CertificateLogos/4.png";
+import certificate5 from "../../photos/CertificateLogos/5.png";
 
 const Homepage = () => {
   const navigate = useNavigate();
@@ -53,11 +57,10 @@ const Homepage = () => {
       <div style={{ width: "100%", maxHeight: "879px" }} className="shadow">
         <div
           style={{
-            backgroundImage: `url(${homepageNew})`,
+            backgroundImage: `url(${homepageNew2})`,
             backgroundColor: "black",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            backgroundPosition: " left 7%",
             justifyContent: "flex-end",
           }}
           className="homepagePlanTech"
@@ -79,7 +82,7 @@ const Homepage = () => {
                 <img src={logo} className="homepageLogo" />
               </div>
             </div>
-            <p
+            <div
               style={{
                 textAlign: "center",
                 fontFamily: "MyFont",
@@ -89,7 +92,18 @@ const Homepage = () => {
               className="homepage-picture-text"
             >
               <FormattedMessage id="app.homepage.firstPictureText" />
-            </p>
+
+              <div className="certificatesLogos">
+                <img src={certificate3} className="certificateLogo" />
+                <img src={certificate1} className="certificateLogo" />
+
+                <img src={certificate2} className="certificateLogo" />
+
+                <img src={certificate4} className="certificateLogo" />
+
+                <img src={certificate5} className="certificateLogo" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
