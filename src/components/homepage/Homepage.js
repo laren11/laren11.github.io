@@ -26,6 +26,13 @@ import certificate2 from "../../photos/CertificateLogos/2.png";
 import certificate3 from "../../photos/CertificateLogos/3.png";
 import certificate4 from "../../photos/CertificateLogos/4.png";
 import certificate5 from "../../photos/CertificateLogos/5.png";
+import carousel1 from "../../photos/homepage-carousel/1.jpg";
+import carousel2 from "../../photos/homepage-carousel/2.jpg";
+import carousel3 from "../../photos/homepage-carousel/3.jpg";
+import carousel4 from "../../photos/homepage-carousel/4.jpg";
+import carousel5 from "../../photos/homepage-carousel/5.jpg";
+import carousel6 from "../../photos/homepage-carousel/6.jpg";
+import carousel7 from "../../photos/homepage-carousel/7.jpg";
 
 const Homepage = () => {
   const navigate = useNavigate();
@@ -52,35 +59,58 @@ const Homepage = () => {
     window.scrollTo(0, 0);
     navigate("/quality");
   }
+
+  const carousel = [
+    carousel1,
+    carousel2,
+    carousel3,
+    carousel4,
+    carousel5,
+    carousel6,
+    carousel7,
+  ].map((photo) => ({
+    src: photo,
+  }));
   return (
     <div>
       <div style={{ width: "100%", maxHeight: "879px" }} className="shadow">
-        <div
+        <Carousel
+          images={carousel}
+          hasMediaButton={false}
+          transitionDurationLimit={750}
+          objectFit="cover"
+          hasThumbnails={false}
+          hasLeftButton={false}
+          hasRightButton={false}
+          hasIndexBoard={false}
+          shouldLazyLoad={true}
+          isAutoPlaying={true}
+          autoPlayInterval={3000}
+          hasSizeButton={false}
           style={{
-            backgroundImage: `url(${homepageNew2})`,
-            backgroundColor: "black",
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            justifyContent: "flex-end",
+            maxHeight: "879px",
+            width: "100%",
+            background: "transparent",
+            paddingBottom: "2%",
+            zIndex: "-2",
+            position: "absolute",
           }}
-          className="homepagePlanTech"
-        >
-          <div style={{ padding: "0% 10% 20% 10%" }}>
-            <div>
-              <div style={{ display: "flex" }} className="homepageTitle">
-                <h1
-                  style={{
-                    textAlign: "left",
-                    paddingTop: "3%",
-                    color: "white",
-                    fontFamily: "MyFont",
-                  }}
-                >
-                  PLAN-TECH
-                </h1>
+        />
+        <div className="homepagePadding">
+          <div>
+            <div style={{ display: "flex" }} className="homepageTitle">
+              <h1
+                style={{
+                  textAlign: "left",
+                  paddingTop: "3%",
+                  color: "white",
+                  fontFamily: "MyFont",
+                }}
+              >
+                PLAN-TECH
+              </h1>
 
-                <img src={logo} className="homepageLogo" />
-              </div>
+              <img src={logo} className="homepageLogo" />
             </div>
             <div
               style={{

@@ -1,16 +1,12 @@
 .homepage-picture-text {
   font-size: 35px;
-  position: absolute;
   width: 30%;
-  right: 5%;
 }
 
 @media only screen and (max-width: 1100px) {
   div > .homepage-picture-text {
     font-size: 3vw;
     width: 40%;
-    position: absolute;
-    right: 3%;
   }
   div > .carouselDiv {
     height: 40vh;
@@ -22,15 +18,13 @@
 
 @media only screen and (max-width: 768px) {
   div > .homepageTitle {
-    font-size: 13vw;
+    font-size: 14vw;
     padding-top: 5vh;
     flex-direction: column;
   }
   div > .homepage-picture-text {
     font-size: 5vw;
     width: 80%;
-    position: absolute;
-    right: 18%;
   }
   div > .text-picture-container-1 {
     flex-direction: column;
@@ -114,11 +108,17 @@
   }
   div > .certificatesLogos {
     padding-top: 10%;
-    left: 3%;
   }
   div > .certificateLogo {
     height: 10vw;
   }
+  div > .homepagePadding {
+    padding: 0% 5% 30% 5%;
+  }
+}
+
+.homepagePadding {
+  padding: 0% 10% 2% 10%;
 }
 
 .certificateLogo {
@@ -129,8 +129,6 @@
 .certificatesLogos {
   display: flex;
   padding-top: 13%;
-  position: absolute;
-  left: -25%;
 }
 
 .galleryDiv {

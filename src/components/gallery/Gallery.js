@@ -40,7 +40,7 @@ import bild6 from "../../photos/carousel-3/6.jpg";
 import bild7 from "../../photos/carousel-3/7.jpg";
 import bild8 from "../../photos/carousel-3/8.jpg";
 
-import galleryBackground from "../../photos/galleryBackground.jpg";
+import galleryBackground from "../../photos/galleryBackground4.jpg";
 
 const Gallery = () => {
   const images1 = [
