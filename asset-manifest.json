@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e163482d.css",
-    "main.js": "/static/js/main.84492831.js",
+    "main.css": "/static/css/main.846e72bd.css",
+    "main.js": "/static/js/main.4a96e532.js",
     "static/js/787.fdf44c86.chunk.js": "/static/js/787.fdf44c86.chunk.js",
     "static/media/homepageNew2.jpg": "/static/media/homepageNew2.1d48a5cd89ddfc563ed1.jpg",
     "static/media/welderNew.jpg": "/static/media/welderNew.2f088ebc8c2203444c47.jpg",
@@ -27,17 +27,14 @@
     "static/media/welder_ponos.jpg": "/static/media/welder_ponos.a6154382157904d8e0af.jpg",
     "static/media/certifikat1010.jpg": "/static/media/certifikat1010.96b9d3413c05200fff30.jpg",
     "static/media/certifikat9.PDF": "/static/media/certifikat9.5965f5927fbdc11a27f8.PDF",
-    "static/media/Roboto-BoldItalic.ttf": "/static/media/Roboto-BoldItalic.fe2fd173a111306a0735.ttf",
-    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.160d7a6ac26376e5e977.ttf",
-    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.35eab922fdbe4b5324d4.ttf",
     "static/media/certifikat33.jpg": "/static/media/certifikat33.f5960611de43d5e19d30.jpg",
+    "static/media/logo.png": "/static/media/logo.e527012ef4c3d31043f5.png",
     "static/media/certifikat66.jpg": "/static/media/certifikat66.b91bc7004906db120f68.jpg",
     "static/media/metalStructures.jpeg": "/static/media/metalStructures.83e819f0127fb162bb52.jpeg",
     "static/media/certifikat11.jpg": "/static/media/certifikat11.b3a912030e214189412f.jpg",
     "static/media/certifikat44.jpg": "/static/media/certifikat44.753e1289294eb86e4da4.jpg",
     "static/media/certifikat77.jpg": "/static/media/certifikat77.c088f0a9d86a76d23280.jpg",
     "static/media/certifikat55.jpg": "/static/media/certifikat55.73066a9bf1b30707a5d1.jpg",
-    "static/media/logo.png": "/static/media/logo.6e863efed9718e028a21.png",
     "static/media/certifikat22.jpg": "/static/media/certifikat22.9c0e344fa8fe88757134.jpg",
     "static/media/certifikat99.jpg": "/static/media/certifikat99.a8b7e1a5e30b7f059033.jpg",
     "static/media/9.jpg": "/static/media/9.98019f00869ec92c5140.jpg",
@@ -53,12 +50,12 @@
     "static/media/5.png": "/static/media/5.880d31a1ab264edb80c7.png",
     "static/media/placeholder.png": "/static/media/placeholder.64cdcb0ef97818161310.png",
     "index.html": "/index.html",
-    "main.e163482d.css.map": "/static/css/main.e163482d.css.map",
-    "main.84492831.js.map": "/static/js/main.84492831.js.map",
+    "main.846e72bd.css.map": "/static/css/main.846e72bd.css.map",
+    "main.4a96e532.js.map": "/static/js/main.4a96e532.js.map",
     "787.fdf44c86.chunk.js.map": "/static/js/787.fdf44c86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e163482d.css",
-    "static/js/main.84492831.js"
+    "static/css/main.846e72bd.css",
+    "static/js/main.4a96e532.js"
   ]
 }
