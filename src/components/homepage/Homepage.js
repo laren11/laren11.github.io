@@ -6,7 +6,6 @@ import Welder1 from "../../photos/Welding1.webp";
 import WelderNew from "../../photos/welderNew.jpg";
 import logo from "../../photos/logo.png";
 import "./Homepage.css";
-import { Repeat } from "@material-ui/icons";
 import MetalStructures from "../../photos/metalStructures.jpeg";
 import { Button } from "@mui/material";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
@@ -33,6 +32,7 @@ import carousel4 from "../../photos/homepage-carousel/4.jpg";
 import carousel5 from "../../photos/homepage-carousel/5.jpg";
 import carousel6 from "../../photos/homepage-carousel/6.jpg";
 import carousel7 from "../../photos/homepage-carousel/7.jpg";
+import { Helmet } from "react-helmet-async";
 
 const Homepage = () => {
   const navigate = useNavigate();
@@ -73,6 +73,11 @@ const Homepage = () => {
   }));
   return (
     <div>
+      <Helmet>
+        <title>Plan-Tech Homepage</title>
+        <meta name="description" content="Experts for welding - Plan-Tech" />
+        <link rel="canonical" href="/" />
+      </Helmet>
       <div style={{ width: "100%", maxHeight: "879px" }} className="shadow">
         <Carousel
           images={carousel}
@@ -96,7 +101,10 @@ const Homepage = () => {
             position: "absolute",
           }}
         />
-        <div className="homepagePadding">
+        <div
+          className="homepagePadding"
+          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+        >
           <div>
             <div style={{ display: "flex" }} className="homepageTitle">
               <h1
@@ -104,18 +112,18 @@ const Homepage = () => {
                   textAlign: "left",
                   paddingTop: "3%",
                   color: "white",
-                  fontFamily: "MyFont",
+                  fontFamily: "Poppins",
                 }}
               >
                 PLAN-TECH
               </h1>
 
-              <img src={logo} className="homepageLogo" />
+              <img src={logo} className="homepageLogo" alt="" />
             </div>
             <div
               style={{
                 textAlign: "center",
-                fontFamily: "MyFont",
+                fontFamily: "Poppins",
                 fontWeight: "bold",
                 color: "white",
               }}
@@ -124,14 +132,14 @@ const Homepage = () => {
               <FormattedMessage id="app.homepage.firstPictureText" />
 
               <div className="certificatesLogos">
-                <img src={certificate3} className="certificateLogo" />
-                <img src={certificate1} className="certificateLogo" />
+                <img src={certificate3} className="certificateLogo" alt="" />
+                <img src={certificate1} className="certificateLogo" alt="" />
 
-                <img src={certificate2} className="certificateLogo" />
+                <img src={certificate2} className="certificateLogo" alt="" />
 
-                <img src={certificate4} className="certificateLogo" />
+                <img src={certificate4} className="certificateLogo" alt="" />
 
-                <img src={certificate5} className="certificateLogo" />
+                <img src={certificate5} className="certificateLogo" alt="" />
               </div>
             </div>
           </div>
@@ -141,7 +149,7 @@ const Homepage = () => {
         style={{
           paddingLeft: "10%",
           paddingRight: "10%",
-          fontFamily: "MyFont",
+          fontFamily: "Poppins",
           backgroundImage: `url(${logo})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "50% 50%",
@@ -178,7 +186,7 @@ const Homepage = () => {
             background: "#414c50",
             paddingTop: "3%",
             height: "100%",
-            fontFamily: "MyFont",
+            fontFamily: "Poppins",
           }}
           className="narrowDivs"
         >
@@ -240,7 +248,7 @@ const Homepage = () => {
                     paddingRight: ".8%",
                     paddingLeft: ".8%",
                     paddingTop: ".5%",
-                    fontFamily: "MyFont",
+                    fontFamily: "Poppins",
                     fontSize: "inherit",
                   }}
                   className="NaseDeloText"
@@ -325,7 +333,7 @@ const Homepage = () => {
           >
             <div
               style={{
-                fontFamily: "MyFont",
+                fontFamily: "Poppins",
               }}
               className="galleryDiv"
             >
@@ -340,7 +348,7 @@ const Homepage = () => {
                     }}
                     variant="text"
                     style={{
-                      fontFamily: "MyFont",
+                      fontFamily: "Poppins",
                       fontSize: "inherit",
                     }}
                   >
@@ -352,7 +360,7 @@ const Homepage = () => {
             </div>
             <div
               style={{
-                fontFamily: "MyFont",
+                fontFamily: "Poppins",
               }}
             >
               <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
@@ -378,7 +386,11 @@ const Homepage = () => {
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
             <div
               className="NaseDeloTitle"
-              style={{ color: "white", paddingTop: "1%", fontFamily: "MyFont" }}
+              style={{
+                color: "white",
+                paddingTop: "1%",
+                fontFamily: "Poppins",
+              }}
             >
               <FormattedMessage id="app.homepage.location" />
             </div>
@@ -386,7 +398,7 @@ const Homepage = () => {
               className="NaseDeloText"
               style={{
                 color: "white",
-                fontFamily: "MyFontNoBold",
+                fontFamily: "Poppins",
                 paddingLeft: "10%",
                 paddingRight: "10%",
               }}
@@ -400,7 +412,7 @@ const Homepage = () => {
               variant="contained"
               style={{
                 marginTop: "1%",
-                fontFamily: "MyFont",
+                fontFamily: "Poppins",
                 backgroundColor: "red",
                 marginBottom: "3%",
                 fontSize: "inherit",

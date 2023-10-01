@@ -41,6 +41,7 @@ import bild7 from "../../photos/carousel-3/7.jpg";
 import bild8 from "../../photos/carousel-3/8.jpg";
 
 import galleryBackground from "../../photos/galleryBackground4.jpg";
+import { Helmet } from "react-helmet-async";
 
 const Gallery = () => {
   const images1 = [
@@ -94,6 +95,14 @@ const Gallery = () => {
         backgroundPosition: "center",
       }}
     >
+      <Helmet>
+        <title>Plan-Tech Gallery</title>
+        <meta
+          name="description"
+          content="Gallery of our past projects - Plan-Tech"
+        />
+        <link rel="canonical" href="/gallery" />
+      </Helmet>
       <div className="NaseDeloTitleGallery">
         <FormattedMessage id="app.gallery.title1" />
       </div>

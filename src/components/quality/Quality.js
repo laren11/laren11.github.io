@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Quality.css";
-import PdfModal from "./PdfModal";
 import certifikat1 from "../../photos/certifikat1.pdf";
 import certifikat2 from "../../photos/certifikat2.pdf";
 import certifikat3 from "../../photos/certifikat3.pdf";
@@ -22,6 +21,7 @@ import certifikat88 from "../../photos/certifikat88.jpg";
 import certifikat99 from "../../photos/certifikat99.jpg";
 import certifikat1010 from "../../photos/certifikat1010.jpg";
 import { FormattedMessage } from "react-intl";
+import { Helmet } from "react-helmet-async";
 
 const Quality = () => {
   const handleImageClick = (url) => {
@@ -31,6 +31,11 @@ const Quality = () => {
 
   return (
     <div className="background">
+      <Helmet>
+        <title>Plan-Tech Quality</title>
+        <meta name="description" content="The best quality welding" />
+        <link rel="canonical" href="/quality" />
+      </Helmet>
       <div className="title">
         <FormattedMessage id="app.quality" />
       </div>
@@ -46,51 +51,61 @@ const Quality = () => {
             src={certifikat11}
             onClick={() => handleImageClick(certifikat1)}
             className="certificate"
+            alt=""
           />
           <img
             src={certifikat22}
             onClick={() => handleImageClick(certifikat2)}
             className="certificate"
+            alt=""
           />
           <img
             src={certifikat99}
             onClick={() => handleImageClick(certifikat9)}
             className="certificate"
+            alt=""
           />
           <img
             src={certifikat1010}
             onClick={() => handleImageClick(certifikat10)}
             className="certificate"
+            alt=""
           />
           <img
             src={certifikat33}
             onClick={() => handleImageClick(certifikat3)}
             className="certificate"
+            alt=""
           />
           <img
             src={certifikat44}
             onClick={() => handleImageClick(certifikat4)}
             className="certificate"
+            alt=""
           />
           <img
             src={certifikat55}
             onClick={() => handleImageClick(certifikat5)}
             className="certificate"
+            alt=""
           />
           <img
             src={certifikat66}
             onClick={() => handleImageClick(certifikat6)}
             className="certificate"
+            alt=""
           />
           <img
             src={certifikat77}
             onClick={() => handleImageClick(certifikat7)}
             className="certificate"
+            alt=""
           />
           <img
             src={certifikat88}
             onClick={() => handleImageClick(certifikat8)}
             className="certificate"
+            alt=""
           />
         </div>
       </div>

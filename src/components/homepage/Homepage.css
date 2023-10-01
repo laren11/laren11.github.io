@@ -228,13 +228,11 @@
 
 .NaseDeloText {
   font-size: 1.5em;
-  font-family: "MyFontNoBold";
 }
 
 .NaseDeloText2 {
   font-size: 1.5em;
   padding-left: 12%;
-  font-family: "MyFontNoBold";
 }
 
 .NaseDeloTitle2 {
@@ -297,7 +295,6 @@
   font-size: 30px;
   text-align: center;
   color: black;
-  font-family: myFont;
 }
 
 .ponosText2 {
@@ -308,7 +305,7 @@
   margin: 3%;
   text-align: center;
   color: black;
-  font-family: myFont;
+  font-family: "Poppins";
 }
 
 .welder1 {

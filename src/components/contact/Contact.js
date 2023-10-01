@@ -6,10 +6,16 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import { MdOutlineMailOutline } from "react-icons/md";
 
 import { IoMdCall } from "react-icons/io";
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
   return (
     <div className="contact-form-container">
+      <Helmet>
+        <title>Plan-Tech Contact</title>
+        <meta name="description" content="Contact us - Plan-Tech" />
+        <link rel="canonical" href="/contact" />
+      </Helmet>
       <div className="contact-form">
         <div style={{ paddingTop: "1%" }}>
           <FormattedMessage id="app.contact.contactUs" />
